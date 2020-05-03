@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'urw_din_bold';
+    src: url('/fonts/urwdin-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'urw_din';
+    src: url('/fonts/urwdin-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'calgary_serial';
+    src: url('/fonts/calgary_serial-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    background-color: #FFFEEF;
+}
+
+body {
+    font-size: 20px;
+    font-family: 'urw_din', sans-serif;
+    border-bottom: 0.5rem solid #91E2A3;
+}
+
+.container {
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.landing-page {
+    justify-content: flex-end;
+}
+
+.display-bold {
+    font-family: 'urw_din_bold' !important;
+}
+
+.display-normal {
+    font-family: 'calgary_serial' !important;
+}
+
+.body {
+    font-family: 'urw_din' !important;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 4rem !important;
+    margin-bottom: 4rem !important;
+}
+
+.subtitle {
+    font-size: 2rem !important;
+}
+
+@media screen and (max-width: 600px) 
+{
+    h1 {
+        margin-top: 4rem;
+        font-size: 3rem !important;
+    }
+
+    #home {
+        width: 100% !important;
+    }
+
+    .form-input {
+        width: 100% !important;
+    }
+}
